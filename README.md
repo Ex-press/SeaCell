@@ -1,7 +1,7 @@
 # SeaLink
 An extremely low-cost way to put phones in the ocean (and keep them working)!  Use cell phones to learn about life in our rivers, estuaries and bays!
 
-![architecture](Images/connected buoy.png)
+![architecture](./Images/connected buoy.png)
 
 The ocean is really big, and there's so much about it we don't know.  We learn about it by making various sensors and putting them in the ocean, but the ocean is a hostile environment for electronics, and these tend to be highly engineered, highly expensive, custom devices.  Researchers spend a lot of their time reinventing the same wheel over and over again, putting in extremely capable effort to design and build single-purpose ocean sensors.  Everyone wants to do something different in the ocean, so everyone makes their own design, and there is very little reuse of hardware in ocean engineering.
 
