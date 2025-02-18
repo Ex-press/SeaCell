@@ -1,4 +1,4 @@
-# SeaLink
+# SeaCell
 An extremely low-cost way to put phones in the ocean (and keep them working)!  Use cell phones to learn about life in our rivers, estuaries and bays!
 
 ![architecture](https://github.com/Ex-press/SeaLink/blob/main/Images/connected%20buoy.png#:~:text=Raw%20file%20content-,Download,-%E2%8C%98)
