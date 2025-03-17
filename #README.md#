@@ -1,0 +1,25 @@
+# SeaCell
+An extremely low-cost way to put phones in the ocean (and keep them working)!  Use cell phones to learn about life in our rivers, estuaries and bays!
+
+![architecture](https://github.com/Ex-press/SeaLink/blob/main/Images/connected%20buoy.png#:~:text=Raw%20file%20content-,Download,-%E2%8C%98)
+
+The ocean is really big, and there's so much about it we don't know.  We learn about it by making various sensors and putting them in the ocean, but the ocean is a hostile environment for electronics, and these tend to be highly engineered, highly expensive, custom devices.  Researchers spend a lot of their time reinventing the same wheel over and over again, putting in extremely capable effort to design and build single-purpose ocean sensors.  Everyone wants to do something different in the ocean, so everyone makes their own design, and there is very little reuse of hardware in ocean engineering.
+
+
+On the other hand, we have phones.  Lots of non-scientists have been designing and building ways to put phones in the ocean, and they have gotten pretty good and cheap.  You can get a very reasonable underwater housing for coastal waters for less than $50, and that lets you put a very capable computer with well-engineered cameras and an elaborate sensor suite into the ocean.  Phones are the ultimate in a common platform where tens of thousands of developers around the world develop increasingly sophisticated software and applications, the polar opposite approach to ocean sensor design.
+
+There are two key limitations to putting a phone underwater:  power and connectivity.  With no additional power, a phone will run just out of battery, limiting the length of time it can do anything useful.  Additionally, once you're more than a few centimeters underwater, the water will block the RF signals that a phone needs to communicate with a cell tower, cutting off the phone from the rest of the world.
+
+This project introduces a simple, open-source way to keep a phone powered and connected while underwater, simply using some low-cost, commercially-available parts in a novel way.  The first one is the qi charger.  Most new phones made in the last ten years support the [qi wireless charging standard](https://en.wikipedia.org/wiki/Qi_(standard)), meaning that they have qi receivers built into them that can receive at least 5W of power from ~40mm away.  Qi transmit modules that can send power to a qi receiver are cheap and available on amazon and aliexpress -- the commoditization of this hardware helps us, because they are easily available as lego pieces that we can use for our own purposes.
+
+There are no commercially available submersible qi chargers, but it's quite easy to make one.  Just take a qi transmit module, 3D print a housing that holds the module at the correct spot under the phone's qi receiver coil, fix the module in place and cover the whole thing in epoxy resin.  In the underwater world, this is known as potting.  There are tons of ways to do this 'properly', but honestly, most run-of-the-mill casting resins will do the trick.  Just make sure there are no big air bubbles trapped under your electronics, and there is a solid layer of resin above and below the electronics.
+
+![potted qi charger](images/potted qi charger.jpg)
+
+The other trick is maintaining connectivity while underwater.  Water attenuates radio waves very well, and once you're more than a few cm underwater, the RF power on most broadcast signals drops to unusable levels.  This is where the coax cable tricks comes into play.
+
+![no-penetrator RF connection](images/no penetrator RF connection.png)
+
+Coax cable is a marvel of RF engineering.  a conductive, cylindrical jacket 
+
+

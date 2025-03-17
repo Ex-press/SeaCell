@@ -5,8 +5,6 @@ An extremely low-cost way to put phones in the ocean (and keep them working)!  U
 
 The ocean is really big, and there's so much about it we don't know.  We learn about it by making various sensors and putting them in the ocean, but the ocean is a hostile environment for electronics, and these tend to be highly engineered, highly expensive, custom devices.  Researchers spend a lot of their time reinventing the same wheel over and over again, putting in extremely capable effort to design and build single-purpose ocean sensors.  Everyone wants to do something different in the ocean, so everyone makes their own design, and there is very little reuse of hardware in ocean engineering.
 
-![architecture](/Images/connected buoy.png)
-
 
 On the other hand, we have phones.  Lots of non-scientists have been designing and building ways to put phones in the ocean, and they have gotten pretty good and cheap.  You can get a very reasonable underwater housing for coastal waters for less than $50, and that lets you put a very capable computer with well-engineered cameras and an elaborate sensor suite into the ocean.  Phones are the ultimate in a common platform where tens of thousands of developers around the world develop increasingly sophisticated software and applications, the polar opposite approach to ocean sensor design.
 
